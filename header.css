@@ -1,0 +1,44 @@
+/* Header Styles */
+.top-header {
+    text-align: center;
+    background-color: #000000; /* Dark background */
+    border-bottom: 1px solid #333333;
+    padding-bottom: 20px;
+}
+
+.header-name {
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #3267c9; /* Adjusted text color */
+}
+
+.profile-image {
+    display: block;
+    margin: 0 auto 15px auto; /* Center and add spacing below */
+    width: 180px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 4px; /* Perfectly rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Soft shadow for depth */
+}
+
+.contact-info {
+    font-size: 0.8em;
+    color: #CCCCCC;
+}
+
+.contact-info .contact-link,
+.contact-info .contact-link:visited,
+.contact-info .contact-link:active {
+    color: #ffffff; /* Accent color for all link states */
+    text-decoration: none;
+}
+
+.contact-info .contact-link:hover {
+    text-decoration: underline;
+}
+
+.separator {
+    margin: 0 10px;
+    color: #CCCCCC;
+}
